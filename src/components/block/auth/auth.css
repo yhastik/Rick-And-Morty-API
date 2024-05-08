@@ -1,0 +1,13 @@
+.auth {
+    width: 338px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+@media(max-width:338px) {
+    .auth {
+        padding: 10px;
+    }
+}
